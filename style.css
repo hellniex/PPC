@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding-top: 90px;
+  
+}
+/* */
+.container {
+  max-width: 1219px;
+  padding: 0 55px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+
+/* -------------------- HEADER ----------*/
+.header {
+  background-color: #007765;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  
+}
+
+.header__flexbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+  padding: 18px 0;
+}
+
+.header__link {
+  text-decoration: none;
+  font-size: 24px;
+  color: #ffffff;
+  
+}
+
+.header__link:hover {
+  color: rgb(211, 208, 208);
+}
+
+.decor-line {
+  color: #eeeeee;
+  font-size: 24px;
+  padding:0 5px;
+}
+
+.header__list {
+list-style: none;
+display: inline-flex;
+}
+
+/*----------------------HEADER END-----------------*/
+
+.title {
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  font-size: 64px;
+  color: #007765;
+}
+
+
+/*--------------JUMBOTRON------------------*/
+
+.jumbotron {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: url(img/jumbotron-bg.svg);
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff;
+  font-size: 72px;
+  padding: 128px 0;
+}
+
+.jumbotron__content {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*------------------------JUMBOTRON END---------------*/
+
+
+/*-----------------------THE PROBLEM------------------*/
+.the-problem {
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #eeeeee;
+}
+
+.the-problem
+ {
+  font-size: 32px;
+}
+
+/*----------------------THE PROBLEM END------------------*/
+
+
+
+/*---------------------HERO----------------------------*/
+.hero {
+  display: flex
+  flex-wrap: wrap;
+  background-image: url(img/hero-bg.svg);
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 500;
+  font-size: 48px;
+  font-style: italic;
+  padding: 127px;
+}
+
+/*-------------------------HERO END-----------------------*/
+
+/*----------------------PPC (PIED PIPER COIN)---------------*/
+.ppc {
+  font-size: 32px;
+  background-color: #ffffff;
+}
+
+
+.ppc-logo {
+  float: left;
+  margin: 36px 36px 0px 0;
+ }
+
+.ppc__paragraph {
+  margin: 0px;
+  padding: 0;
+}
+
+/*----------------------PPC END--------------------------------*/
+
+/*----------------------THE TEAM------------------------------*/
+.the-team {
+  display: flex;
+  background-color: #eeeeee;
+}
+
+.member {
+  flex-basis: 33%;
+  text-align: center;
+  padding: 24px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.member-name {
+  margin: 0;
+  margin-top: 12px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #007765;
+}
+
+.member-role {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.members {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+/*-----------------------------THE TEAM END--------------------------*/
+
+
+/*-------------------FOOTER----------------------------------*/
+.footer {
+  text-align: center;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+  width: 100%;
+  background-color: #333333;
+  font-size: 18px;
+  color: #ffffff;
+}
+/*----------------------------FOOTER END---------------------*/
