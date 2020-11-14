@@ -36,6 +36,7 @@ body {
 }
 
 .header__link {
+  cursor: pointer;
   text-decoration: none;
   font-size: 24px;
   color: #ffffff;
@@ -111,7 +112,7 @@ display: inline-flex;
 
 /*---------------------HERO----------------------------*/
 .hero {
-  display: flex
+  display: flex;
   flex-wrap: wrap;
   background-image: url(img/hero-bg.svg);
   background-size: cover;
